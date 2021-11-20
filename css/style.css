@@ -1,0 +1,50 @@
+.button-success, .button-warning {
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.main {
+  background-color: #5cdb95;
+}
+
+.main h1 {
+  color: #05386b;
+  font-size: 50px;
+}
+
+.main h1 span {
+  font-size: 20px;
+}
+
+.main h1:hover {
+  color: #4b81b8;
+}
+
+.main p {
+  font-size: 25px;
+}
+
+.alert-red {
+  background-color: #05386b;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+.alert-green {
+  background-color: green;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+.button-success {
+  background-color: green;
+}
+
+.button-warning {
+  background-color: yellow;
+}
+/*# sourceMappingURL=style.css.map */

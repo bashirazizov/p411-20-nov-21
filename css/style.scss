@@ -1,0 +1,45 @@
+@import "partial/colors";
+@import "partial/mixins";
+
+$def_font_size: 50px;
+
+%button{
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    border:none;
+}
+
+.main{
+    background-color: $secondary_color;
+
+    h1{
+        color: $primary_color;
+        font-size: $def_font_size;
+        span{
+            font-size: $def_font_size/2.5;
+        }
+        &:hover{
+            color: #4b81b8;
+        }
+    }
+
+    p{
+        font-size: $def_font_size / 2;
+    }
+}
+.alert-red{
+    @include alertMixin($primary_color)
+}
+.alert-green{
+    @include alertMixin(green)
+}
+
+.button-success{
+    @extend %button;
+    background-color: green;
+}
+.button-warning{
+    @extend %button;
+    background-color: yellow;
+}
